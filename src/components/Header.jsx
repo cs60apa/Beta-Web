@@ -1,7 +1,8 @@
 // Import necessary modules and styles.
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import "../index.css";
 import { IoIosArrowForward } from "react-icons/io";
+import { AiOutlineMenu } from "react-icons/ai";
 
 // Define the Header component.
 function Header() {
@@ -70,45 +71,59 @@ function Header() {
   }, []);
 
   return (
-    <div className="min-h-screen overflow-hidden relative">
+    <div className="min-h-screen overflow-hidden relative select-auto">
       <header className="h-full">
         <div className="absolute inset-0">
           <canvas
             ref={canvasRef}
-            className="absolute top-0 left-0 w-full"
+            className="absolute top-0 left-0 w-full h-auto md:h-full"
           ></canvas>
         </div>
-        <div className="absolute flex flex-row md:mx-40 mt-5 space-x-40 text-white">
-          <div className="flex flex-row space-x-10 hidden md:flex">
-            <img src="/logo.png" alt="Logo" className="h-10" />
+        <div className="absolute grid md:flex grid-cols-2 gap-x-20 md:gap-x-0 mx-5 md:flex-row md:mx-40 mt-5 text-white">
+          <img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />
+          <div className="flex-row space-x-10 hidden md:flex">
             <p>Products</p>
             <p>Solutions</p>
             <p>Developers</p>
             <p>Resources</p>
-            <p>Pricing</p>
+            <p className="hover:text-gray-500">Pricing</p>
           </div>
-          <div className="flex space-x-10">
-            <button className="flex">
+          <div className="hidden md:flex md:space-x-5 md:ml-60 ">
+            <button className="flex hover:text-gray-500">
               Contact Sales <IoIosArrowForward className="ml-1 mt-1.5" />
             </button>
-            <button className="flex justify-center border-none bg-[#B8BAE5] bg-opacity-25 rounded-full h-8 w-20">
-              Sign in <IoIosArrowForward className="ml-1 mt-1.5" />
+            <button className="flex justify-center border-none bg-[#B8BAE5] hover:bg-gray-700 bg-opacity-25 rounded-full h-8 w-20">
+            <p className="ml-2">Sign in</p> <IoIosArrowForward className="ml-1 mt-1.5" />
             </button>
+          </div>
+          <div className="flex justify-end md:hidden ">
+            <button><AiOutlineMenu /></button>
           </div>
         </div>
       </header>
-      <div className="absolute left-0 top-40 flex flex-col justify-start md:px-40 text-black">
-        <h1 className="text-8xl font-bold opacity-75">
-          Creativity<br></br> Beyond <br></br>Imagination
-        </h1>
-        <p className="text-lg mt-10">
-          Millions of companies of all sizes—from startups to Fortune<br></br>{" "}
-          500s—use Stripe’s software and APIs to accept payments,<br></br> send
-          payouts, and manage their businesses online.
-        </p>
-      </div>
-      <div className="absolute top-14 justify-end hidden md:flex md:w-full md:h-full">
-        <img src="/phones.png" alt="phone" />
+      <div>
+        <div className="absolute left-0 top-40 flex flex-col justify-start mx-10 md:mx-40 text-black">
+          <h1 className="md:text-8xl text-4xl font-bold opacity-75">
+            Creativity<br></br> Beyond <br></br>Imagination
+          </h1>
+          <p className="md:text-lg mt-10">
+            Millions of companies of all sizes—from startups to Fortune<br></br>{" "}
+            500s—use Stripe’s software and APIs to accept payments,<br></br>{" "}
+            send payouts, and manage their businesses online.
+          </p>
+          <div className="flex flex-row mt-5 space-x-8">
+            <button className="flex justify-center border-none bg-black hover:bg-gray-500 text-white rounded-full h-8 w-24">
+              <p className="ml-2">Start now</p>
+              <IoIosArrowForward className="mt-1.5" />
+            </button>
+            <button className="flex hover:text-gray-500">
+              Contact Sales <IoIosArrowForward className="mt-1.5" />
+            </button>
+          </div>
+        </div>
+        <div className="absolute top-0 md:ml-80 justify-end hidden md:flex w-full h-full">
+          <img src="/assets/phone.png" alt="phone" />
+        </div>
       </div>
     </div>
   );

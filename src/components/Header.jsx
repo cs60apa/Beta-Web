@@ -71,14 +71,14 @@ function Header() {
   }, []);
 
   return (
-    <div className="min-h-screen overflow-hidden relative select-auto">
-      <header className="h-full">
+    <div className="min-h-screen relative overflow-hidden">
+      <header>
         <div className="absolute inset-0">
           <canvas
             ref={canvasRef}
-            className="absolute top-0 left-0 w-full h-auto md:h-full"
+            className="absolute top-0 left-0 w-full h-96 md:h-full"
           ></canvas>
-        </div>
+        </div> 
         <div className="absolute grid md:flex grid-cols-2 gap-x-20 md:gap-x-0 mx-5 md:flex-row md:mx-40 mt-5 text-white">
           <img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />
           <div className="flex-row space-x-10 hidden md:flex">
@@ -100,8 +100,7 @@ function Header() {
             <button><AiOutlineMenu /></button>
           </div>
         </div>
-      </header>
-      <div>
+        <div>
         <div className="absolute left-0 top-40 flex flex-col justify-start mx-10 md:mx-40 text-black">
           <h1 className="md:text-8xl text-4xl font-bold opacity-75">
             Creativity<br></br> Beyond <br></br>Imagination
@@ -121,10 +120,11 @@ function Header() {
             </button>
           </div>
         </div>
-        <div className="absolute top-0 md:ml-80 justify-end hidden md:flex w-full h-full">
+        <div className="absolute flex-wrap top-0 md:ml-80 justify-end hidden md:flex w-full h-full">
           <img src="/assets/phone.png" alt="phone" />
         </div>
       </div>
+      </header>
     </div>
   );
 }

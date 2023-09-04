@@ -4,8 +4,9 @@ import { AiOutlineMenu } from "react-icons/ai";
 function Navbar() {
   return (
     <div className="absolute grid md:flex grid-cols-2 gap-x-20 md:gap-x-0 mx-5 md:flex-row md:mx-40 mt-5 text-white">
-      <img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />
+      {/*<img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />*/}
       <div className="flex-row space-x-10 hidden md:flex">
+      <h1 className="text-2xl">Beta-web</h1>
         <div className="relative group">
           <p className="group-hover:text-gray-500 cursor-pointer">Products</p>
           <div className="absolute top-full left-0 mt-2 bg-[#EFF3F9] text-black border border-gray-300 rounded-lg shadow-md w-80 h-80 opacity-0 group-hover:opacity-100 invisible group-hover:visible z-10">

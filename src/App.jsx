@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="min-h-screen">
       <Header />
-      <div className="grid md:grid-rows-2 grid-rows-4 gap-4 md:mx-40 mx-5 md:pb-10">
+      <div className="grid md:grid-rows-2 grid-rows-4 gap-4 md:mx-40 mx-5 md:pb-10 relative z-0">
         <div className="grid md:grid-cols-4 md:gap-40 gap-4 grid-cols-2 justify-center">
           <p className="flex font-bold text-3xl text-black mt-2">
             <SiInstacart size={30} className="text-orange-500" />

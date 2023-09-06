@@ -50,7 +50,7 @@ function Header() {
   });
 
   return (
-    <div className="min-h-screen relative overflow-hidden">
+    <div className="min-h-screen relative overflow-auto">
       <header>
         <div className="absolute inset-0">
           <canvas
@@ -69,13 +69,12 @@ function Header() {
               <br></br> 500s—use Stripe’s software and APIs to accept payments,
               <br></br> send payouts, and manage their businesses online.
             </p>
-            <div className="flex flex-row mt-5 space-x-8">
-              <a href="#" className="flex justify-center border-none bg-black hover:bg-gray-500 text-white rounded-full h-8 w-24">
-                <p className="ml-2">Start now</p>
-                <IoIosArrowForward className="mt-1.5" />
+            <div className="flex flex-row mt-5 md:space-x-8">
+              <a href="#" className="flex justify-center border-none bg-black hover:bg-gray-500 text-white rounded-full w-28">
+                <p className="flex md:m-2 m-1 text-base md:pb-1">Start now <IoIosArrowForward className="flex mt-1.5" /></p>
               </a>
-              <a href="#" className="flex hover:text-gray-500">
-                Contact Sales <IoIosArrowForward className="mt-1.5" />
+              <a href="#" className="flex hover:text-gray-500 md:mt-0.5">
+                <p className="flex m-2 text-base ">Contact Sales <IoIosArrowForward className="flex mt-1.5" /></p>
               </a>
             </div>
           </div>

@@ -8,7 +8,7 @@ import { IoIosArrowForward } from "react-icons/io";
 function Header() {
   // Create a reference to the canvas element using the useRef hook.
   const canvasRef = useRef(null);
-  
+
   // useEffect hook: Runs after the component has been rendered.
   useEffect(() => {
     // Get the canvas element and its drawing context.
@@ -50,7 +50,7 @@ function Header() {
   });
 
   return (
-    <div className="min-h-screen relative overflow-auto">
+    <div className="min-h-screen relative md:overflow-hidden">
       <header>
         <div className="absolute inset-0">
           <canvas
@@ -60,7 +60,7 @@ function Header() {
         </div>
         <Navbar />
         <div>
-          <div className="absolute left-0 top-40 flex flex-col justify-start mx-10 md:mx-40 text-black">
+          <div className="absolute left-0 top-40 flex flex-col justify-start mx-10 lg:mx-40 text-black">
             <h1 className="md:text-8xl text-4xl font-bold opacity-75">
               Creativity<br></br> Beyond <br></br>Imagination
             </h1>
@@ -70,11 +70,18 @@ function Header() {
               <br></br> send payouts, and manage their businesses online.
             </p>
             <div className="flex flex-row mt-5 md:space-x-8">
-              <a href="#" className="flex justify-center border-none bg-black hover:bg-gray-500 text-white rounded-full w-28">
-                <p className="flex md:m-2 m-1 text-base md:pb-1">Start now <IoIosArrowForward className="flex mt-1.5" /></p>
+              <a
+                href="#"
+                className="flex justify-center border-none bg-black hover:bg-gray-500 text-white rounded-full w-28"
+              >
+                <p className="flex md:m-2 m-1 text-base md:pb-1">
+                  Start now <IoIosArrowForward className="flex mt-1.5" />
+                </p>
               </a>
               <a href="#" className="flex hover:text-gray-500 md:mt-0.5">
-                <p className="flex m-2 text-base ">Contact Sales <IoIosArrowForward className="flex mt-1.5" /></p>
+                <p className="flex m-2 text-base ">
+                  Contact Sales <IoIosArrowForward className="flex mt-1.5" />
+                </p>
               </a>
             </div>
           </div>

@@ -13,27 +13,27 @@ function Navbar() {
   return (
     <div className="absolute md:mx-10 lg:mx-40 text-white">
       {/*<img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />*/}
-      <div className="hidden md:flex mt-5 md:flex-row overflow-hidden space-x-10 lg:space-x-5">
+      <div className="hidden md:flex mt-4 md:flex-row overflow-hidden space-x-10 lg:space-x-5">
         <div className="flex h-fit lg:w-32 w-28 lg:mr-5">
           <h1 className="text-2xl">Beta-web</h1>
         </div>
-        <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-1.5">
+        <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2">
           <p>Products</p>
           <p>Solutions</p>
           <p>Developers</p>
           <p>Resources</p>
           <p>Pricing</p>
         </div>
-        <div className="hidden md:flex lg:space-x-8 lg:pl-60 pl-40">
+        <div className="hidden md:flex lg:space-x-5 lg:pl-60 pl-40">
           <a
             href="#"
-            className="flex justify-center text-center h-fit mt-1.5 lg:w-32 w-28 hover:text-gray-500 cursor-pointer focus:outline-none"
+            className="flex justify-center text-center h-fit mt-2.5 lg:w-32 w-28 hover:text-gray-500 cursor-pointer focus:outline-none"
           >
             Contact Sales <IoIosArrowForward className="lg:ml-1 mt-1.5" />
           </a>
           <a
             href="#"
-            className="flex text-center justify-center border-none mt-1 bg-[#B8BAE5] hover:bg-gray-700 bg-opacity-25 rounded-full h-8 lg:w-24 w-24 cursor-pointer focus:outline-none"
+            className="flex text-center justify-center border-none mt-2 bg-[#B8BAE5] hover:bg-gray-700 bg-opacity-25 rounded-full h-8 lg:w-24 w-24 cursor-pointer focus:outline-none"
           >
             <p className="flex m-0.5">
               Sign in
@@ -42,7 +42,7 @@ function Navbar() {
           </a>
         </div>
       </div>
-      <div className="relative md:hidden overflow-visible mt-8 w-screen px-10">
+      <div className="relative md:hidden overflow-visible mt-5 w-screen px-10">
         <div>
           <h1 className="text-2xl">Beta-web</h1>
         </div>

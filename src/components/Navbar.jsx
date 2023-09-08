@@ -19,39 +19,7 @@ function Navbar() {
           <h1 className="text-2xl">Beta-web</h1>
         </div>
         <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2 z-10">
-          <div className="relative group">
-            <p className="group-hover:text-gray-300 cursor-pointer">Products</p>
-            <div className="absolute top-full -left-44 pt-2 pb-48 bg-[#EFF3F9] text-black border border-gray-300 rounded-lg shadow-md w-80 h-auto opacity-0 group-hover:opacity-100 invisible group-hover:visible delay-100">
-              {/* Main Dropdown content */}
-              <a
-                href="#"
-                className="group-hover:text-[#33333F] block px-4 py-2 rounded-lg hover:bg-white"
-              >
-                <h2 className="flex justify-start text-sm font-medium text-[#3F4B66]">
-                  Global Payments
-                </h2>
-                <p className="flex justify-between text-xs text-gray-500">
-                  Accept payments online, or in-person, or through your platform{" "}
-                </p>
-              </a>
-              <a href="#" className="block px-4 py-2 hover:bg-white">
-                <h2 className="flex justify-start text-sm font-medium text-[#3F4B66]">
-                  Revenue and Finance Automation
-                </h2>
-                <p className="flex justify-between text-xs text-gray-500">
-                  Grow your business with automated revenue and finance
-                </p>
-              </a>
-              <a href="#" className="block px-4 py-2 hover:bg-white">
-                <h2 className="flex justify-start text-sm font-medium text-[#3F4B66]">
-                  Banking-as-a-Service
-                </h2>
-                <p className="flex justify-between text-xs text-gray-500">
-                  Embeded financial services in your platform or product
-                </p>
-              </a>
-            </div>
-          </div>
+          <p>Product</p>
           <p>Solutions</p>
           <p>Developers</p>
           <p>Resources</p>

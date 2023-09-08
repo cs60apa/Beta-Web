@@ -65,40 +65,12 @@ function Navbar() {
                   onClick={toggleMenu}
                 />
               </div>
-              <div className="dropdown py-2 bg-[#EFF3F9] text-black border border-none w-74 h-68 opacity-0 group-hover:opacity-100 invisible group-hover:visible z-10">
-                {/* Dropdown content */}
-                <h1 className="flex justify-start text-lg font-medium m-3 text-[#3F4B66]">
-                  Products
-                </h1>
-                <a href="#" className="block ml-3 py-2">
-                  <h2 className="flex justify-start text-base font-medium text-[#3F4B66]">
-                    Global Payments
-                  </h2>
-                  <p className="flex justify-between text-xs text-gray-500">
-                    Accept payments online, or in-person, or through your
-                    platform{" "}
-                    <IoIosArrowForward size={20} className="flex mr-3" />
-                  </p>
-                </a>
-                <a href="#" className="block ml-3 py-2">
-                  <h2 className="flex justify-start text-base font-medium text-[#3F4B66]">
-                    Revenue and Finance Automation
-                  </h2>
-                  <p className="flex justify-between text-xs text-gray-500">
-                    Grow your business with automated revenue and finance{" "}
-                    <IoIosArrowForward size={20} className="flex mr-3" />
-                  </p>
-                </a>
-                <a href="#" className="block ml-3 py-2">
-                  <h2 className="flex justify-start text-base font-medium text-[#3F4B66]">
-                    Banking-as-a-Service
-                  </h2>
-                  <p className="flex justify-between text-xs text-gray-500">
-                    Embeded financial services in your platform or product{" "}
-                    <IoIosArrowForward size={20} className="flex mr-3" />
-                  </p>
-                </a>
-              </div>
+              <a href="#" className="block ml-2 py-2">
+                <div className="flex justify-between m-3 text-[#3F4B66]">
+                  <h1 className="text-lg font-medium">Product</h1>
+                  <IoIosArrowForward size={20} className="mt-2" />
+                </div>
+              </a>
               <a href="#" className="block ml-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
                   <h1 className="text-lg font-medium">Solutions</h1>

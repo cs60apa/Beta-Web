@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -13,27 +14,59 @@ function Navbar() {
   return (
     <div className="absolute md:mx-10 lg:mx-40 text-white">
       {/*<img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />*/}
-      <div className="hidden md:flex mt-4 md:flex-row overflow-hidden space-x-10 lg:space-x-5">
+      <div className="hidden md:flex mt-4 md:flex-row space-x-10 lg:space-x-5">
         <div className="flex h-fit lg:w-32 w-28 lg:mr-5">
           <h1 className="text-2xl">Beta-web</h1>
         </div>
-        <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2">
-          <p>Products</p>
+        <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2 z-10">
+          <div className="relative group">
+            <p className="group-hover:text-gray-300 cursor-pointer">Products</p>
+            <div className="absolute top-full -left-44 pt-2 pb-48 bg-[#EFF3F9] text-black border border-gray-300 rounded-lg shadow-md w-80 h-auto opacity-0 group-hover:opacity-100 invisible group-hover:visible delay-100">
+              {/* Main Dropdown content */}
+              <a
+                href="#"
+                className="group-hover:text-[#33333F] block px-4 py-2 rounded-lg hover:bg-white"
+              >
+                <h2 className="flex justify-start text-sm font-medium text-[#3F4B66]">
+                  Global Payments
+                </h2>
+                <p className="flex justify-between text-xs text-gray-500">
+                  Accept payments online, or in-person, or through your platform{" "}
+                </p>
+              </a>
+              <a href="#" className="block px-4 py-2 hover:bg-white">
+                <h2 className="flex justify-start text-sm font-medium text-[#3F4B66]">
+                  Revenue and Finance Automation
+                </h2>
+                <p className="flex justify-between text-xs text-gray-500">
+                  Grow your business with automated revenue and finance
+                </p>
+              </a>
+              <a href="#" className="block px-4 py-2 hover:bg-white">
+                <h2 className="flex justify-start text-sm font-medium text-[#3F4B66]">
+                  Banking-as-a-Service
+                </h2>
+                <p className="flex justify-between text-xs text-gray-500">
+                  Embeded financial services in your platform or product
+                </p>
+              </a>
+            </div>
+          </div>
           <p>Solutions</p>
           <p>Developers</p>
           <p>Resources</p>
           <p>Pricing</p>
         </div>
-        <div className="hidden md:flex lg:space-x-5 lg:pl-60 pl-40">
+        <div className="hidden md:flex lg:space-x-5 lg:pl-60 pl-40 z-10">
           <a
             href="#"
-            className="flex justify-center text-center h-fit mt-2.5 lg:w-32 w-28 hover:text-gray-500 cursor-pointer focus:outline-none"
+            className="flex justify-center text-center h-fit mt-2.5 lg:w-32 w-28 hover:text-gray-300 transition duration-300 cursor-pointer focus:outline-none"
           >
             Contact Sales <IoIosArrowForward className="lg:ml-1 mt-1.5" />
           </a>
           <a
             href="#"
-            className="flex text-center justify-center border-none mt-2 bg-[#B8BAE5] hover:bg-gray-700 bg-opacity-25 rounded-full h-8 lg:w-24 w-24 cursor-pointer focus:outline-none"
+            className="flex text-center justify-center border-none mt-2 bg-[#B8BAE5] hover:bg-opacity-75 transition duration-300 bg-opacity-25 rounded-full h-8 lg:w-24 w-24 cursor-pointer focus:outline-none"
           >
             <p className="flex m-0.5">
               Sign in
@@ -54,7 +87,7 @@ function Navbar() {
             <div
               className={`absolute top-0 right-0 bg-white text-black border border-none rounded-lg divide-y divide-dashed divide-gray-300 shadow-2xl w-80 h-auto ${
                 isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
-              } z-50 mx-auto`}
+              } z-10 mx-auto`}
             >
               <div className="flex justify-between m-3 text-[#4F5B76]">
                 <h1 className="text-2xl">Beta-Web</h1>

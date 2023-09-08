@@ -52,7 +52,7 @@ function Header() {
   return (
     <div className="min-h-screen relative md:overflow-hidden">
       <header>
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 z-0">
           <canvas
             ref={canvasRef}
             className="absolute top-0 left-0 w-full h-96 md:h-full"

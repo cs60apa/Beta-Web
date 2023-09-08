@@ -30,19 +30,32 @@ function Navbar() {
                 <h2 className="flex justify-start text-sm font-medium text-[#3F4B66]">
                   Global Payments
                 </h2>
+                <p className="flex justify-between text-xs text-gray-500">
+                  Accept payments online, or in-person, or through your platform{" "}
+                </p>
               </a>
               <a href="#" className="block px-4 py-2 hover:bg-white">
                 <h2 className="flex justify-start text-sm font-medium text-[#3F4B66]">
                   Revenue and Finance Automation
                 </h2>
+                <p className="flex justify-between text-xs text-gray-500">
+                  Grow your business with automated revenue and finance
+                </p>
               </a>
               <a href="#" className="block px-4 py-2 hover:bg-white">
                 <h2 className="flex justify-start text-sm font-medium text-[#3F4B66]">
                   Banking-as-a-Service
                 </h2>
+                <p className="flex justify-between text-xs text-gray-500">
+                  Embeded financial services in your platform or product
+                </p>
               </a>
             </div>
           </div>
+          <p>Solutions</p>
+          <p>Developers</p>
+          <p>Resources</p>
+          <p>Pricing</p>
         </div>
         <div className="hidden md:flex lg:space-x-5 lg:pl-60 pl-40 z-10">
           <a

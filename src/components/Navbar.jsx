@@ -30,7 +30,7 @@ function Navbar() {
             href="#"
             className="flex justify-center text-center h-fit mt-2.5 lg:w-32 w-28 hover:text-gray-300 transition duration-300 cursor-pointer focus:outline-none"
           >
-            Contact Sales <IoIosArrowForward className="lg:ml-1 mt-1.5" />
+            Contact <IoIosArrowForward className="lg:ml-1 mt-1.5" />
           </a>
           <a
             href="#"
@@ -91,7 +91,7 @@ function Navbar() {
               </a>
               <a href="#" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
-                  <h1 className="text-lg font-medium">Contact Sales</h1>
+                  <h1 className="text-lg font-medium">Contact</h1>
                 </div>
               </a>
               <a href="#" className="block pl-2 py-2">

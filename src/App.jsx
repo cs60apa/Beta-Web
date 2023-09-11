@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { SiInstacart } from "react-icons/si";
 import {
   FaSalesforce,
@@ -62,6 +63,7 @@ export default function App() {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

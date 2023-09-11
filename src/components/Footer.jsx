@@ -124,7 +124,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex">
-        <span>&copy; {new Date().getFullYear()} Otofast Project</span>
+        <span>&copy; {new Date().getFullYear()} DevCircle Africa</span>
       </div>
     </div>
   );

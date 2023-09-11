@@ -1,6 +1,5 @@
 
 import React from "react";
-import Link from "next/link";
 import {
   FaFacebookSquare,
   FaGithubSquare,
@@ -10,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
+    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-[#374D63]">
       <div>
         <h1 className="w-full text-3xl font-bold text-[#00df9a]">
           Beta-Web
@@ -26,18 +25,18 @@ export default function Footer() {
           </a>
         </p>
         <div className="flex justify-between md:w-[78%] my-6">
-          <Link href="https://facebook.com/Alisikaundi">
+          <a href="https://facebook.com/Alisikaundi">
             <FaFacebookSquare size={25} />{" "}
-          </Link>
-          <Link href="https://github.com/cs60apa">
+          </a>
+          <a href="https://github.com/cs60apa">
             <FaGithubSquare size={25} />{" "}
-          </Link>
-          <Link href="https://instagram.com/marksikaundi">
+          </a>
+          <a href="https://instagram.com/marksikaundi">
             <FaInstagramSquare size={25} />{" "}
-          </Link>
-          <Link href="https://twitter.com/Alisikaundi">
+          </a>
+          <a href="https://twitter.com/Alisikaundi">
             <FaTwitterSquare size={25} />{" "}
-          </Link>
+          </a>
         </div>
       </div>
       <div className="lg:col-span-2 mt-6 flex justify-between">
@@ -45,22 +44,22 @@ export default function Footer() {
           <h6 className="font-medium text-black bold">Products</h6>
           <ul>
             <li className="py-2 text-sm">
-              <Link href="/features">Features</Link>
+              <a href="/features">Features</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/courses">Courses</Link>
+              <a href="/courses">Courses</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/funding-programs">Fundings</Link>
+              <a href="/funding-programs">Fundings</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/lms">Learning System</Link>
+              <a href="/lms">Learning System</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/docs">Docs</Link>
+              <a href="/docs">Docs</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/guides">Guides</Link>
+              <a href="/guides">Guides</a>
             </li>
           </ul>
         </div>
@@ -68,25 +67,25 @@ export default function Footer() {
           <h6 className="font-medium text-black bold">Explore</h6>
           <ul>
             <li className="py-2 text-sm">
-              <Link href="/analytics">Analytics</Link>
+              <a href="/analytics">Analytics</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/commerce">Commerce</Link>
+              <a href="/commerce">Commerce</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/ai-tools">AI Tools</Link>
+              <a href="/ai-tools">AI Tools</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/research">Research</Link>
+              <a href="/research">Research</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/help">Help</Link>
+              <a href="/help">Help</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/projects">Projects</Link>
+              <a href="/projects">Projects</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/fqa">FQA</Link>
+              <a href="/fqa">FQA</a>
             </li>
           </ul>
         </div>
@@ -95,31 +94,31 @@ export default function Footer() {
           <h6 className="font-medium text-black bold">Company</h6>
           <ul>
             <li className="py-2 text-sm">
-              <Link href="/about">About</Link>
+              <a href="/about">About</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/blog">Blog</Link>
+              <a href="/blog">Blog</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="https://devcircleafrica.com/careers">careers</Link>
+              <a href="https://devcircleafrica.com/careers">careers</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/open-source">Open source</Link>
+              <a href="/open-source">Open source</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/privacy">Privacy Policy</Link>
+              <a href="/privacy">Privacy Policy</a>
             </li>
             <li className="py-2 text-sm">
-              <Link href="/terms">Terms</Link>
+              <a href="/terms">Terms</a>
               <li className="py-2 text-sm">
-                <Link href="/code-hacks">Code Hacks</Link>
+                <a href="/code-hacks">Code Hacks</a>
               </li>
               <li className="py-2 text-sm">
-                <Link href="/marketplace">Marketplace</Link>
+                <a href="/marketplace">Marketplace</a>
               </li>
             </li>
             <li className="py-2 text-sm">
-              <Link href="https://forum.devcircleafrica.com">Community</Link>
+              <a href="https://forum.devcircleafrica.com">Community</a>
             </li>
           </ul>
         </div>

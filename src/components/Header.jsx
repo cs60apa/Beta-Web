@@ -78,11 +78,6 @@ function Header() {
                   Start now <IoIosArrowForward className="flex mt-1.5" />
                 </p>
               </a>
-              <a href="#" className="flex hover:text-gray-500 md:mt-0.5">
-                <p className="flex m-2 text-base ">
-                  Contact Sales <IoIosArrowForward className="flex mt-1.5" />
-                </p>
-              </a>
             </div>
           </div>
           <div className="absolute flex-wrap top-0 md:ml-80 justify-end hidden md:flex w-full h-full">

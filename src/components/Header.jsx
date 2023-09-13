@@ -59,8 +59,8 @@ function Header() {
           ></canvas>
         </div>
         <Navbar />
-        <div>
-          <div className="absolute left-0 top-40 flex flex-col justify-start mx-10 lg:mx-40 text-black">
+        <div className="w-screen">
+          <div className="absolute left-0 top-40 flex flex-col mx-10 md:mx-20 lg:mx-40 justify-start text-black">
             <h1 className="md:text-8xl text-4xl font-bold opacity-75">
               Creativity<br></br> Beyond <br></br>Imagination
             </h1>
@@ -85,8 +85,8 @@ function Header() {
               </a>
             </div>
           </div>
-          <div className="absolute flex-wrap top-0 md:ml-80 justify-end hidden md:flex w-full h-full">
-            <img src="/assets/phone.png" alt="phone" />
+          <div className="absolute top-28 right-10 justify-end hidden lg:flex w-full h-fit overflow-hidden">
+            <img src="/assets/phone.svg" alt="phone"/>
           </div>
         </div>
       </header>

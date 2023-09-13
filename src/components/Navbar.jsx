@@ -19,11 +19,11 @@ function Navbar() {
           <h1 className="text-2xl">Beta-web</h1>
         </div>
         <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2 z-10">
-          <p>Product</p>
           <p>Solutions</p>
+          <p>Product</p>
           <p>Developers</p>
           <p>Resources</p>
-          <p>Pricing</p>
+          <p>Forum</p>
         </div>
         <div className="hidden md:flex lg:space-x-5 lg:pl-60 pl-40 z-10">
           <a

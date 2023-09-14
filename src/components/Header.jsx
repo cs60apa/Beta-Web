@@ -66,8 +66,8 @@ function Header() {
             </h1>
             <p className="md:text-lg mt-10">
               Millions of companies of all sizes—from startups to Fortune
-              <br></br> 500s—use Stripe’s software and APIs to accept payments,
-              <br></br> send payouts, and manage their businesses online.
+              <br></br> Are you looking for efficient ways to improve skills,
+              <br></br> boost productivity, and increase profits?
             </p>
             <div className="flex flex-row mt-5 md:space-x-8">
               <a
@@ -75,7 +75,7 @@ function Header() {
                 className="flex justify-center border-none bg-black hover:bg-gray-500 text-white rounded-full w-28"
               >
                 <p className="flex md:m-2 m-1 text-base md:pb-1">
-                  Start now <IoIosArrowForward className="flex mt-1.5" />
+                  Start now 
                 </p>
               </a>
             </div>

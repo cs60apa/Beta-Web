@@ -24,7 +24,7 @@ function Navbar() {
           <Link to="/product">Product</Link>
           <Link to="/developers">Developers</Link>
           <Link to="/resources">Resources</Link>
-          <p>Forum</p>
+          <a href="#">Forum</a>
         </div>
         <div className="hidden md:flex lg:space-x-5 lg:pl-60 pl-40 z-10">
         <Link to="/contact"

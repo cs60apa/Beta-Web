@@ -3,6 +3,7 @@ import { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdOutlineCancel } from "react-icons/md";
+import { FiCommand } from "react-icons/fi";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ function Navbar() {
             href="#"
             className="flex justify-center text-center h-fit mt-2.5 lg:w-32 w-28 hover:text-gray-300 transition duration-300 cursor-pointer focus:outline-none"
           >
-            Contact <IoIosArrowForward className="lg:ml-1 mt-1.5" />
+            Community <FiCommand className="lg:ml-1 mt-1.5" />
           </a>
           <a
             href="#"

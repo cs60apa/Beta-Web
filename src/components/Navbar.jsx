@@ -104,7 +104,7 @@ function Navbar() {
               <div className="mt-40 py-5 mb-2 bg-[#EFF3F9] hover:bg-[#0A2540] text-white border border-none rounded-lg w-74 h-68 opacity-0 group-hover:opacity-100 invisible group-hover:visible z-10">
                 <button className="border border-none rounded-full bg-[#635BFF] w-24 h-8">
                   <p className="flex justify-center mb-1 text-base ml-1 space-x-1">
-                    Sign in <IoIosArrowForward className="flex mt-1.5 ml-1" />
+                    CodeX <FaGithub className="flex mt-1.5 ml-1" />
                   </p>
                 </button>
               </div>

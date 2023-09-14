@@ -9,9 +9,9 @@ import {
 
 export default function Footer() {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-[#374D63]">
+    <div className="py-20 lg:px-40 px-10 md:py-32 grid lg:grid-cols-3 gap-8 bg-gradient-to-r from-[#040404] to-[#2D3436] text-[#9DAEBE]">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a]">
+        <h1 className="w-full text-3xl font-bold text-[#00D4FF]">
           Beta-Web
         </h1>
         <p className="py-4">
@@ -39,9 +39,9 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="lg:col-span-2 mt-6 flex justify-between">
+      <div className="lg:col-span-2 flex justify-between">
         <div>
-          <h6 className="font-medium text-black bold">Products</h6>
+          <h6 className="font-medium text-white bold py-2">Products</h6>
           <ul>
             <li className="py-2 text-sm">
               <a href="/features">Features</a>
@@ -64,7 +64,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-black bold">Explore</h6>
+          <h6 className="font-medium text-white bold py-2">Explore</h6>
           <ul>
             <li className="py-2 text-sm">
               <a href="/analytics">Analytics</a>
@@ -91,7 +91,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h6 className="font-medium text-black bold">Company</h6>
+          <h6 className="font-medium text-white bold py-2">Company</h6>
           <ul>
             <li className="py-2 text-sm">
               <a href="/about">About</a>

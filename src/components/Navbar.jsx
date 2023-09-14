@@ -39,7 +39,7 @@ function Navbar() {
             className="flex text-center justify-center border-none mt-2 bg-[#030303] hover:bg-opacity-75 transition duration-300 bg-opacity-25 rounded-full h-8 lg:w-24 w-24 cursor-pointer focus:outline-none"
           >
             <p className="flex m-0.5">
-              Code
+              CodeX
               <FaGithub className="mt-1.5 ml-1" />
             </p>
           </a>

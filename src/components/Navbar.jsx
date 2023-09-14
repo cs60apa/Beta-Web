@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -21,15 +22,14 @@ function Navbar() {
           <h1 className="text-2xl">Beta-web</h1>
         </div>
         <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2 z-10">
-          <p>Solutions</p>
-          <p>Product</p>
-          <p>Developers</p>
-          <p>Resources</p>
-          <p>Forum</p>
+        <Link to="/solutions">Solutions</Link>
+          <Link to="/product">Product</Link>
+          <Link to="/developers">Developers</Link>
+          <Link to="/resources">Resources</Link>
+          <a href="#">Forum</a>
         </div>
         <div className="hidden md:flex lg:space-x-5 lg:pl-60 pl-40 z-10">
-          <a
-            href="#"
+        <a href="#"
             className="flex justify-center text-center h-fit mt-2.5 lg:w-32 w-28 hover:text-gray-300 transition duration-300 cursor-pointer focus:outline-none"
           >
             Community <FiCommand className="lg:ml-1 mt-1.5" />

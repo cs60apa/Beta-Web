@@ -75,7 +75,7 @@ function Header() {
                 className="flex justify-center border-none bg-black hover:bg-gray-500 text-white rounded-full w-28"
               >
                 <p className="flex md:m-2 m-1 text-base md:pb-1">
-                  Start now <IoIosArrowForward className="flex mt-1.5" />
+                  Start now 
                 </p>
               </a>
             </div>

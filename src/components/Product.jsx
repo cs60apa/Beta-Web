@@ -2,7 +2,7 @@ import React from "react";
 
 function Product() {
     return(
-        <div></div>
+        <div>Hello, am page</div>
     );
 }
 export default Product;

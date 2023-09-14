@@ -45,7 +45,7 @@ function Navbar() {
           </a>
         </div>
       </div>
-      <div className="relative md:hidden overflow-visible mt-5 w-screen px-10">
+      <div className="relative md:hidden overflow-visible mt-5 w-screen px-10 z-10">
         <div>
           <h1 className="text-2xl">Beta-web</h1>
         </div>

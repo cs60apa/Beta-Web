@@ -164,6 +164,40 @@ export default function App() {
           <img src="/assets/billing.svg" alt="billing" />
         </div>
       </div>
+      </div>
+      <div className="bg-contain bg-no-repeat bg-right bg-black text-[#9DAEBE] py-20 lg:px-60 px-10 h-auto bg-[url('/assets/globe.jpg')]">
+        <div className="flex flex-col space-y-8 text-start leading-relaxed">
+          <p className="text-[#00D4FF] text-lg font-medium">Global Scale</p>
+          <h1 className="text-white text-4xl font-bold">
+            The backbone for<br></br> global commerce
+          </h1>
+          <p>
+            Stripe makes moving money as easy and programmable as moving data.
+            Our teams are<br></br> based in offices around the world and we process
+            hundreds of billions of dollars each year for<br></br> ambitious businesses
+            of all sizes.
+          </p>
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 md:pt-32 divide-x divide-[#00D4FF]">
+            <div>
+              <h1 className="text-white text-2xl font-bold">250M+</h1>
+              <p>API requests per day, peaking at<br></br> 13,000 requests a second</p>
+            </div>
+            <div className="pl-5">
+              <h1 className="text-white text-2xl font-bold">99.999%</h1>
+              <p>Historical uptime for<br></br> Devcircle services.</p>
+            </div> 
+            <div className="pl-5">
+              <h1 className="text-white text-2xl font-bold">90%</h1>
+              <p>of US adults have bought from<br></br> businesses using Devcircle</p>
+            </div> 
+            <div className="pl-5">
+              <h1 className="text-white text-2xl font-bold">135+</h1>
+              <p>currencies and payment<br></br> methods supported</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div className="relative bg-[#F6F9FC]">
       <div className="py-20 lg:mx-40 mx-10 md:py-32 grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:gap-40">
         <div className="flex flex-col space-y-8">
           <h1 className="text-4xl text-[#0A2540] font-bold">
@@ -256,38 +290,6 @@ export default function App() {
           <img src="/assets/creditcard.svg" alt="creditcard" />
         </div>
       </div>
-      </div>
-      <div className="bg-contain bg-no-repeat bg-right bg-black text-[#9DAEBE] py-20 lg:px-60 px-10 h-auto bg-[url('/assets/globe.jpg')]">
-        <div className="flex flex-col space-y-8 text-start leading-relaxed">
-          <p className="text-[#00D4FF] text-lg font-medium">Global Scale</p>
-          <h1 className="text-white text-4xl font-bold">
-            The backbone for<br></br> global commerce
-          </h1>
-          <p>
-            Stripe makes moving money as easy and programmable as moving data.
-            Our teams are<br></br> based in offices around the world and we process
-            hundreds of billions of dollars each year for<br></br> ambitious businesses
-            of all sizes.
-          </p>
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 md:pt-32 divide-x divide-[#00D4FF]">
-            <div>
-              <h1 className="text-white text-2xl font-bold">250M+</h1>
-              <p>API requests per day, peaking at<br></br> 13,000 requests a second</p>
-            </div>
-            <div className="pl-5">
-              <h1 className="text-white text-2xl font-bold">99.999%</h1>
-              <p>Historical uptime for<br></br> Devcircle services.</p>
-            </div> 
-            <div className="pl-5">
-              <h1 className="text-white text-2xl font-bold">90%</h1>
-              <p>of US adults have bought from<br></br> businesses using Devcircle</p>
-            </div> 
-            <div className="pl-5">
-              <h1 className="text-white text-2xl font-bold">135+</h1>
-              <p>currencies and payment<br></br> methods supported</p>
-            </div> 
-          </div>
-        </div>
       </div>
       <Footer />
     </div>

@@ -45,7 +45,7 @@ function Navbar() {
           </a>
         </div>
       </div>
-      <div className="relative md:hidden overflow-visible mt-5 w-screen px-10">
+      <div className="relative md:hidden overflow-visible mt-5 w-screen px-10 z-10">
         <div>
           <h1 className="text-2xl">Beta-web</h1>
         </div>
@@ -67,35 +67,35 @@ function Navbar() {
                   onClick={toggleMenu}
                 />
               </div>
-              <a href="#" className="block ml-2 py-2">
+              <Link to="/product" className="block ml-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
                   <h1 className="text-lg font-medium">Product</h1>
                   <IoIosArrowForward size={20} className="mt-2" />
                 </div>
-              </a>
-              <a href="#" className="block ml-2 py-2">
+              </Link>
+              <Link to="/solutions" className="block ml-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
                   <h1 className="text-lg font-medium">Solutions</h1>
                   <IoIosArrowForward size={20} className="mt-2" />
                 </div>
-              </a>
-              <a href="#" className="block pl-2 py-2">
+              </Link>
+              <Link to="/developers" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
                   <h1 className="text-lg font-medium">Developers</h1>
                   <IoIosArrowForward size={20} className="mt-2" />
                 </div>
-              </a>
-              <a href="#" className="block pl-2 py-2">
+              </Link>
+              <Link to="/resources" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
                   <h1 className="text-lg font-medium">Resources</h1>
                   <IoIosArrowForward size={20} className="mt-2" />
                 </div>
-              </a>
-              <a href="#" className="block pl-2 py-2">
+              </Link>
+              <Link to="/contact" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
                   <h1 className="text-lg font-medium">Contact</h1>
                 </div>
-              </a>
+              </Link>
               <a href="#" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
                   <h1 className="text-lg font-medium">Pricing</h1>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Resources() {
     return(
-        <div></div>
+        <div>here is resources</div>
     );
 }
 export default Resources;

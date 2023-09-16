@@ -69,7 +69,7 @@ function Navbar() {
               </div>
               <a href="#" className="block ml-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
-                  <h1 className="text-lg font-medium">Product</h1>
+                  <h1 className="text-lg font-medium">Solutions</h1>
                   <IoIosArrowForward size={20} className="mt-2" />
                 </div>
               </a>
@@ -93,12 +93,12 @@ function Navbar() {
               </a>
               <a href="#" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
-                  <h1 className="text-lg font-medium">Contact</h1>
+                  <h1 className="text-lg font-medium">Forum</h1>
                 </div>
               </a>
               <a href="#" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
-                  <h1 className="text-lg font-medium">Pricing</h1>
+                  <h1 className="text-lg font-medium">Community</h1>
                 </div>
               </a>
               <div className="mt-40 py-5 mb-2 bg-[#EFF3F9] hover:bg-[#0A2540] text-white border border-none rounded-lg w-74 h-68 opacity-0 group-hover:opacity-100 invisible group-hover:visible z-10">

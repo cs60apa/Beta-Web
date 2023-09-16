@@ -2,7 +2,7 @@ import React from "react";
 
 function Solutions() {
     return(
-        <div>Hello, am page</div>
+        <div>here is solutions</div>
     );
 }
 export default Solutions;

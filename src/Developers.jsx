@@ -2,7 +2,7 @@ import React from "react";
 
 function Developers() {
     return(
-        <div>Hello, am page</div>
+        <div>here is developers</div>
     );
 }
 export default Developers;

@@ -20,7 +20,7 @@ function Navbar() {
       {/*<img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />*/}
       <div className="hidden md:flex mt-4 md:flex-row space-x-10 lg:space-x-5">
         <div className="flex h-fit lg:w-32 w-28 lg:mr-5">
-          <h1 className="text-2xl">Beta-web</h1>
+          <h1 className="text-2xl">DevCircle</h1>
         </div>
         <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2 z-10">
         <Link to="/solutions">Solutions</Link>
@@ -48,7 +48,7 @@ function Navbar() {
       </div>
       <div className="relative md:hidden overflow-visible mt-5 w-screen px-10 z-10">
         <div>
-          <h1 className="text-2xl">Beta-web</h1>
+          <h1 className="text-2xl">DevCircle</h1>
         </div>
         <div className="absolute top-0 right-5">
           <button className="relative group" onClick={toggleMenu}>
@@ -61,7 +61,7 @@ function Navbar() {
               } z-10 mx-auto`}
             >
               <div className="flex justify-between m-3 text-[#4F5B76]">
-                <h1 className="text-2xl">Beta-Web</h1>
+                <h1 className="text-2xl">DevCircle</h1>
                 <MdOutlineCancel
                   size={23}
                   className="mt-2 cursor-pointer"

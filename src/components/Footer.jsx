@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="py-20 lg:px-40 px-10 md:py-32 grid lg:grid-cols-3 gap-8 bg-gradient-to-r from-[#040404] to-[#2D3436] text-[#9DAEBE]">
       <div>
         <h1 className="w-full text-3xl font-bold text-[#00D4FF]">
-          Beta-Web
+          DevCircle
         </h1>
         
       </div>

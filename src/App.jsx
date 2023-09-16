@@ -1,6 +1,10 @@
+import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { SiInstacart } from "react-icons/si";
+import { RiEditCircleFill } from "react-icons/ri";
+import { BsCircleSquare } from "react-icons/bs";
+import { BiSolidNote } from "react-icons/bi";
 import {
   FaSalesforce,
   FaLocationArrow,
@@ -10,9 +14,7 @@ import {
   FaGoogle,
   FaLyft,
 } from "react-icons/fa";
-import { RiEditCircleFill } from "react-icons/ri";
-import { BsCircleSquare } from "react-icons/bs";
-import { BiSolidNote } from "react-icons/bi";
+
 
 export default function App() {
   return (

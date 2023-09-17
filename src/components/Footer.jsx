@@ -35,7 +35,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-white bold py-2">Explore</h6>
+          <h6 className="font-medium text-white bold py-2">Solutions</h6>
           <ul>
             <li className="py-2 text-sm">
               <a href="/analytics">Analytics</a>
@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h6 className="font-medium text-white bold py-2">Company</h6>
+          <h6 className="font-medium text-white bold py-2">Developers</h6>
           <ul>
             <li className="py-2 text-sm">
               <a href="/about">About</a>

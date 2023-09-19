@@ -2,7 +2,6 @@
 import { useEffect, useRef } from "react";
 import "../index.css";
 import Navbar from "./Navbar";
-import { IoIosArrowForward } from "react-icons/io";
 
 // Define the Header component.
 function Header() {

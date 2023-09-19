@@ -16,11 +16,11 @@ function Navbar() {
   };
 
   return (
-    <div className="absolute md:px-10 lg:px-40 text-white">
+    <div className="absolute text-white relative">
       {/*<img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />*/}
-      <div className="hidden md:flex mt-4 md:flex-row space-x-10 lg:space-x-5">
-        <div className="flex h-fit lg:w-32 w-28 lg:mr-5">
-          <h1 className="text-2xl">DevCircle</h1>
+      <div className="hidden md:flex md:flex-row justify-between p-3">
+        <div>
+          <Link to="/" className="text-2xl">DevCircle</Link>
         </div>
         <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2 z-10">
         <Link to="/solutions">Solutions</Link>
@@ -29,7 +29,7 @@ function Navbar() {
           <Link to="/resources">Resources</Link>
           <a href="#">Forum</a>
         </div>
-        <div className="hidden md:flex lg:space-x-5 lg:pl-60 pl-40 z-10">
+        <div className="hidden md:flex lg:space-x-5 z-10">
         <a href="#"
             className="flex justify-center text-center h-fit mt-2.5 lg:w-32 w-28 hover:text-gray-300 transition duration-300 cursor-pointer focus:outline-none"
           >
@@ -46,11 +46,11 @@ function Navbar() {
           </a>
         </div>
       </div>
-      <div className="relative md:hidden overflow-visible mt-5 w-screen px-10 z-10">
+      <div className="relative md:hidden overflow-visible w-screen p-3 z-10">
         <div>
           <h1 className="text-2xl">DevCircle</h1>
         </div>
-        <div className="absolute top-0 right-5">
+        <div className="absolute top-3 right-5">
           <button className="relative group" onClick={toggleMenu}>
             <p className="group-hover:text-gray-500 flex justify-center border-none bg-[#B8BAE5] hover:bg-gray-700 bg-opacity-25 rounded-full w-12 cursor-pointer focus:outline-none">
               <AiOutlineMenu size={16} className="flex m-2 text-white" />

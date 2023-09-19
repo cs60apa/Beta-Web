@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from 'react-router-dom';
 import { useState } from "react";
@@ -19,7 +20,7 @@ function Navbar() {
       {/*<img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />*/}
       <div className="hidden md:flex mt-4 md:flex-row space-x-10 lg:space-x-5">
         <div className="flex h-fit lg:w-32 w-28 lg:mr-5">
-          <h1 className="text-2xl">Beta-web</h1>
+          <h1 className="text-2xl">DevCircle</h1>
         </div>
         <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2 z-10">
         <Link to="/solutions">Solutions</Link>
@@ -47,7 +48,7 @@ function Navbar() {
       </div>
       <div className="relative md:hidden overflow-visible mt-5 w-screen px-10 z-10">
         <div>
-          <h1 className="text-2xl">Beta-web</h1>
+          <h1 className="text-2xl">DevCircle</h1>
         </div>
         <div className="absolute top-0 right-5">
           <button className="relative group" onClick={toggleMenu}>
@@ -60,7 +61,7 @@ function Navbar() {
               } z-10 mx-auto`}
             >
               <div className="flex justify-between m-3 text-[#4F5B76]">
-                <h1 className="text-2xl">Beta-Web</h1>
+                <h1 className="text-2xl">DevCircle</h1>
                 <MdOutlineCancel
                   size={23}
                   className="mt-2 cursor-pointer"
@@ -69,7 +70,7 @@ function Navbar() {
               </div>
               <Link to="/product" className="block ml-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
-                  <h1 className="text-lg font-medium">Product</h1>
+                  <h1 className="text-lg font-medium">Solutions</h1>
                   <IoIosArrowForward size={20} className="mt-2" />
                 </div>
               </Link>
@@ -91,14 +92,14 @@ function Navbar() {
                   <IoIosArrowForward size={20} className="mt-2" />
                 </div>
               </Link>
-              <Link to="/contact" className="block pl-2 py-2">
+              <a to="https://forum.devcircleafrica.com" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
-                  <h1 className="text-lg font-medium">Contact</h1>
+                  <h1 className="text-lg font-medium">Forum</h1>
                 </div>
-              </Link>
-              <a href="#" className="block pl-2 py-2">
+              </a>
+              <a href="https://github.com/cs60apa" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
-                  <h1 className="text-lg font-medium">Pricing</h1>
+                  <h1 className="text-lg font-medium">Community</h1>
                 </div>
               </a>
               <div className="mt-40 py-5 mb-2 bg-[#EFF3F9] hover:bg-[#0A2540] text-white border border-none rounded-lg w-74 h-68 opacity-0 group-hover:opacity-100 invisible group-hover:visible z-10">

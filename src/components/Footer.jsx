@@ -1,43 +1,14 @@
 
 import React from "react";
-import {
-  FaFacebookSquare,
-  FaGithubSquare,
-  FaInstagramSquare,
-  FaTwitterSquare,
-} from "react-icons/fa";
 
 export default function Footer() {
   return (
     <div className="py-20 lg:px-40 px-10 md:py-32 grid lg:grid-cols-3 gap-8 bg-gradient-to-r from-[#040404] to-[#2D3436] text-[#9DAEBE]">
       <div>
         <h1 className="w-full text-3xl font-bold text-[#00D4FF]">
-          Beta-Web
+          DevCircle
         </h1>
-        <p className="py-4">
-          DevCircle Africa is a vibrant community of technology enthusiasts and
-          professionals who are passionate about exploring the latest trends and
-          innovations in the tech industry. You can learn more about us by
-          visiting...{" "}
-          <a href="/about" className="font-semibold text-indigo-600">
-            <span className="absolute inset-0" aria-hidden="true" />
-            Read more <span aria-hidden="true">&rarr;</span>
-          </a>
-        </p>
-        <div className="flex justify-between md:w-[78%] my-6">
-          <a href="https://facebook.com/Alisikaundi">
-            <FaFacebookSquare size={25} />{" "}
-          </a>
-          <a href="https://github.com/cs60apa">
-            <FaGithubSquare size={25} />{" "}
-          </a>
-          <a href="https://instagram.com/marksikaundi">
-            <FaInstagramSquare size={25} />{" "}
-          </a>
-          <a href="https://twitter.com/Alisikaundi">
-            <FaTwitterSquare size={25} />{" "}
-          </a>
-        </div>
+        
       </div>
       <div className="lg:col-span-2 flex justify-between">
         <div>
@@ -64,7 +35,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-white bold py-2">Explore</h6>
+          <h6 className="font-medium text-white bold py-2">Solutions</h6>
           <ul>
             <li className="py-2 text-sm">
               <a href="/analytics">Analytics</a>
@@ -91,7 +62,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h6 className="font-medium text-white bold py-2">Company</h6>
+          <h6 className="font-medium text-white bold py-2">Developers</h6>
           <ul>
             <li className="py-2 text-sm">
               <a href="/about">About</a>

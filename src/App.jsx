@@ -1,6 +1,10 @@
+import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { SiInstacart } from "react-icons/si";
+import { RiEditCircleFill } from "react-icons/ri";
+import { BsCircleSquare } from "react-icons/bs";
+import { BiSolidNote } from "react-icons/bi";
 import {
   FaSalesforce,
   FaLocationArrow,
@@ -10,9 +14,7 @@ import {
   FaGoogle,
   FaLyft,
 } from "react-icons/fa";
-import { RiEditCircleFill } from "react-icons/ri";
-import { BsCircleSquare } from "react-icons/bs";
-import { BiSolidNote } from "react-icons/bi";
+
 
 export default function App() {
   return (
@@ -54,17 +56,17 @@ export default function App() {
       <div className="py-20 lg:mx-40 mx-10 grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:gap-40">
         <div className="flex flex-col space-y-10">
           <h2 className="text-[#635BFF] md:text-lg font-medium">
-            Modular solutions
+            Modular approach
           </h2>
           <h1 className="lg:text-6xl text-3xl text-[#0A2540] font-bold">
-            A fully integrated<br></br> suite of financial<br></br> and payments
+            A fully integrated<br></br> suite for developers<br></br> and innovators
             <br></br> products
           </h1>
           <p className="lg:text-lg text-[#425466]">
-            Reduce costs, grow revenue, and run your business<br></br> more
-            efficiently on a fully integrated platform. Use<br></br> Stripe to
-            handle all of your payments-related needs,<br></br> manage revenue
-            operations, and launch (or invent) new business models.
+            Reduce costs, grow technically, and run your business<br></br> more
+            efficiently on a fully integrated platform. Through<br></br> Our 
+            platform all of your learning-related needs,<br></br> manage track
+            performance, and launch (or invent) new business models.
           </p>
         </div>
         <div className="pt-10 translate-y-10">
@@ -74,20 +76,20 @@ export default function App() {
       <div className="py-20 lg:mx-40 mx-10 md:py-32 grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:gap-40">
         <div className="flex flex-col space-y-8">
           <h1 className="text-4xl text-[#0A2540] font-bold">
-            Accept and optimize<br></br> payments, globally
+            Accept everywhere<br></br> around, globally
           </h1>
           <p className="lg:text-lg text-[#425466]">
-            Increase authorization rates, optimize your checkout{" "}
-            conversion, and offer local payment methods in every{" "}
-            market.
+            Improve your personal skillsets, and get on trends{" "}
+            with best offers to local developers and innovators{" "}
+            everywhere.
           </p>
           <div className="border-none shadow-xl rounded-lg bg-white text-center w-auto md:w-96 h-auto md:h-12">
             <p className="flex py-3 text-[#425466]">
               <FaLocationArrow className="flex rotate-45 m-1 text-[#19E1E2]" />
               <a href="#" className="font-medium mx-1 text-[#635BFF]">
-                Payments
+                Innovators:
               </a>{" "}
-              for online payments acceptance
+              our support for young developers
             </p>
           </div>
           <div className="flex flex-col text-[#425466] leading-relaxed">
@@ -96,21 +98,21 @@ export default function App() {
             </h1>
             <p>
               <a href="#" className="font-medium text-[#635BFF]">
-                Tax
+                codeX
               </a>{" "}
-              for automatic sales tax and VAT
+              for debuggers and fixers check codeX
             </p>
             <p>
               <a href="#" className="font-medium text-[#635BFF]">
-                Radar
+                Join now
               </a>{" "}
-              for fraud prevention and management
+              talent support for gigs and grow
             </p>
             <p>
               <a href="#" className="font-medium text-[#635BFF]">
-                Terminal
+                Open Source
               </a>{" "}
-              for custom in-person payments
+              contribute to our open sources
             </p>
           </div>
         </div>
@@ -121,19 +123,19 @@ export default function App() {
       <div className="py-20 lg:mx-40 mx-10 md:py-32 grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:gap-40">
         <div className="flex flex-col space-y-8">
           <h1 className="text-4xl text-[#0A2540] font-bold">
-            Capture recurring revenue
+            Capture recurring invert
           </h1>
           <p className="lg:text-lg text-[#425466]">
             Support recurring business models, minimize churn,<br></br> and
-            automate finance operations.
+            automate all your work force.
           </p>
           <div className="border-none shadow-xl rounded-lg bg-white text-center w-auto md:w-96 h-auto md:h-12">
             <p className="flex py-3 text-[#425466]">
               <BsCircleSquare className="flex rotate-45 m-1.5 text-[#00D823] bg-[#FFD148]" />
               <a href="#" className="font-medium mx-1 text-[#635BFF]">
-                Billing
+                Innovates
               </a>{" "}
-              for subscription management
+              check what we have for you to get on.
             </p>
           </div>
           <div className="flex flex-col text-[#425466] leading-relaxed">
@@ -142,21 +144,21 @@ export default function App() {
             </h1>
             <p>
               <a href="#" className="font-medium text-[#635BFF]">
-                Invoicing
+                Requirement
               </a>{" "}
-              for invoice creation, collection, and tracking
+              everyone has a spot to elevate
             </p>
             <p>
               <a href="#" className="font-medium text-[#635BFF]">
-                Revenue Recognition
+                Recognition
               </a>{" "}
-              for streamlined accrual accounting
+              for streamlined accrual approach
             </p>
             <p>
               <a href="#" className="font-medium text-[#635BFF]">
                 Sigma
               </a>{" "}
-              for custom revenue reports
+              for custom perfomance reports
             </p>
           </div>
         </div>
@@ -169,30 +171,30 @@ export default function App() {
         <div className="flex flex-col space-y-8 text-start leading-relaxed">
           <p className="text-[#00D4FF] text-lg font-medium">Global Scale</p>
           <h1 className="text-white text-4xl font-bold">
-            The backbone for<br></br> global commerce
+            The backbone for<br></br> global Innovators
           </h1>
           <p>
-            Stripe makes moving money as easy and programmable as moving data.
-            Our teams are<br></br> based in offices around the world and we process
-            hundreds of billions of dollars each year for<br></br> ambitious businesses
+            We make young innovators to take their next level in their career.
+            Our teams are<br></br> all based remote around the world and we have
+            helped hundreds of innovators around Africa each year for<br></br> ambitious businesses
             of all sizes.
           </p>
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 md:pt-32 divide-x divide-[#00D4FF]">
             <div>
               <h1 className="text-white text-2xl font-bold">250M+</h1>
-              <p>API requests per day, peaking at<br></br> 13,000 requests a second</p>
+              <p>Applications per month<br></br> 13,000 submitted enquire</p>
             </div>
             <div className="pl-5">
               <h1 className="text-white text-2xl font-bold">99.999%</h1>
-              <p>Historical uptime for<br></br> Devcircle services.</p>
+              <p>Historical uptime for<br></br> success services.</p>
             </div> 
             <div className="pl-5">
               <h1 className="text-white text-2xl font-bold">90%</h1>
-              <p>of US adults have bought from<br></br> businesses using Devcircle</p>
+              <p>most existing Business<br></br> improvements</p>
             </div> 
             <div className="pl-5">
-              <h1 className="text-white text-2xl font-bold">135+</h1>
-              <p>currencies and payment<br></br> methods supported</p>
+              <h1 className="text-white text-2xl font-bold">450+</h1>
+              <p>companies and others <br></br> methods supported</p>
             </div> 
           </div>
         </div>
@@ -201,11 +203,11 @@ export default function App() {
       <div className="py-20 lg:mx-40 mx-10 md:py-32 grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:gap-40">
         <div className="flex flex-col space-y-8">
           <h1 className="text-4xl text-[#0A2540] font-bold">
-            Set up multiparty payments and payouts
+                Where do you start from now?
           </h1>
           <p className="lg:text-lg text-[#425466]">
-            Integrate payments into your platform or marketplace<br></br> for
-            end-to-end payments experiences.
+            We have open market-place you can start from<br></br> beginners
+            to enterprise levels
           </p>
           <div className="border-none shadow-xl rounded-lg bg-white text-center w-auto md:w-96 h-auto md:h-12">
             <p className="flex py-3 text-[#425466]">
@@ -213,7 +215,7 @@ export default function App() {
               <a href="#" className="font-medium mx-1 text-[#635BFF]">
                 Connect
               </a>{" "}
-              for powering platform payments
+              for powering reliable platforms
             </p>
           </div>
           <div className="flex flex-col text-[#425466] leading-relaxed">
@@ -228,15 +230,15 @@ export default function App() {
             </p>
             <p>
               <a href="#" className="font-medium text-[#635BFF]">
-                Instant Payouts
+                Instant Response
               </a>{" "}
-              for fast payments to users
+              for fast help from others
             </p>
             <p>
               <a href="#" className="font-medium text-[#635BFF]">
-                Payment Elements
+                Privacy Policy
               </a>{" "}
-              for customizable UIs
+              for others policies and many
             </p>
           </div>
         </div>
@@ -247,11 +249,11 @@ export default function App() {
       <div className="py-10 lg:mx-40 mx-10 md:py-32 grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:gap-40">
         <div className="flex flex-col space-y-8">
           <h1 className="text-4xl text-[#0A2540] font-bold">
-            Build a fintech offering with banking-as-a-service
+            Build a SaaS offering hundreds of other Business
           </h1>
           <p className="lg:text-lg text-[#425466]">
-            Launch, manage, and scale a commercial card program<br></br> without
-            any setup fees.
+            Launch, manage, and scale a commercial program<br></br> without
+            any setup complixicity fee.
           </p>
           <div className="border-none shadow-xl rounded-lg bg-white text-center w-auto md:w-96 h-auto md:h-12">
             <p className="flex py-3 text-[#425466]">
@@ -259,7 +261,7 @@ export default function App() {
               <a href="#" className="font-medium mx-1 text-[#635BFF]">
                 Issuing
               </a>{" "}
-              for custom cards creation
+              for custom creation support
             </p>
           </div>
           <div className="flex flex-col text-[#425466] leading-relaxed">

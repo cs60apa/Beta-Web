@@ -16,7 +16,7 @@ function Navbar() {
   };
 
   return (
-    <div className="absolute text-white">
+    <div className="absolute text-white relative">
       {/*<img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />*/}
       <div className="hidden md:flex md:flex-row justify-between p-3">
         <div>

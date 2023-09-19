@@ -15,7 +15,7 @@ function Navbar() {
   };
 
   return (
-    <div className="absolute md:mx-10 lg:mx-40 text-white">
+    <div className="absolute md:px-10 lg:px-40 text-white">
       {/*<img src="/assets/logo.png" alt="Logo" className="h-10 md:mr-10" />*/}
       <div className="hidden md:flex mt-4 md:flex-row space-x-10 lg:space-x-5">
         <div className="flex h-fit lg:w-32 w-28 lg:mr-5">

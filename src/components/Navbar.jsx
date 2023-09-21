@@ -24,7 +24,7 @@ function Navbar() {
         </div>
         <div className="flex-row lg:space-x-10 space-x-4 hidden md:flex mt-2 z-10">
         <Link to="/solutions">Solutions</Link>
-          <Link to="/product">Product</Link>
+          <Link to="/products">Products</Link>
           <Link to="/developers">Developers</Link>
           <Link to="/resources">Resources</Link>
           <a href="#">Forum</a>

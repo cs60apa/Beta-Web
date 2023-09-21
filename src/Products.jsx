@@ -1,6 +1,6 @@
 import React from "react";
 
-function Product() {
+function Products() {
   return (
     <div className="min-h-screen text-black">
       <div className="flex justify-between flex-col md:flex-row lg:px-10 px-5 overflow-hidden">
@@ -21,4 +21,4 @@ function Product() {
     </div>
   );
 }
-export default Product;
+export default Products;

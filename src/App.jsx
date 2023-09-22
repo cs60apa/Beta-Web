@@ -24,7 +24,7 @@ export default function App() {
         <div className="grid md:grid-cols-4 md:gap-40 gap-4 grid-cols-2 justify-center z-0">
           <p className="flex font-bold text-3xl text-black mt-2">
             <SiInstacart size={30} className="text-orange-500" />
-            instacart
+            Instacart
           </p>
           <p>
             <FaSalesforce size={80} className="flex text-[#00A1E0]" />

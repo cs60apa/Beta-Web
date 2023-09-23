@@ -253,7 +253,7 @@ export default function App() {
           </h1>
           <p className="lg:text-lg text-[#425466]">
             Launch, manage, and scale a commercial program<br></br> without
-            any setup complixicity fee.
+            any setup complixicity.
           </p>
           <div className="border-none shadow-xl rounded-lg bg-white text-center w-auto md:w-96 h-auto md:h-12">
             <p className="flex py-3 text-[#425466]">

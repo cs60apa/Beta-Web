@@ -14,7 +14,7 @@ sitemap.write({ url: '/solutions' });
 sitemap.end();
 
 streamToPromise(sitemap).then((xml) => {
-  const writeStream = createWriteStream('./public/sitemap.xml');
+  const writeStream = createWriteStream('./sitemap.xml');
   writeStream.write(xml);
   writeStream.end();
 });

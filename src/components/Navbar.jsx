@@ -92,7 +92,7 @@ function Navbar() {
                   <IoIosArrowForward size={20} className="mt-2" />
                 </div>
               </Link>
-              <a to="https://forum.devcircleafrica.com" className="block pl-2 py-2">
+              <a href="https://forum.devcircleafrica.com" className="block pl-2 py-2">
                 <div className="flex justify-between m-3 text-[#3F4B66]">
                   <h1 className="text-lg font-medium">Forum</h1>
                 </div>

@@ -1,37 +1,28 @@
-// Import necessary modules and styles.
 import { useEffect, useRef } from "react";
 import "../index.css";
 import Navbar from "./Navbar";
 
-// Define the Header component.
 function Header() {
-  // Create a reference to the canvas element using the useRef hook.
   const canvasRef = useRef(null);
 
-  // useEffect hook: Runs after the component has been rendered.
   useEffect(() => {
-    // Get the canvas element and its drawing context.
     const canvas = canvasRef.current;
     const context = canvas.getContext("2d");
 
-    // Get the dimensions of the viewport.
     const width = window.innerWidth;
     const height = window.innerHeight;
-    const gradientHeight = 500; // Specific height for the gradient.
-    const rightCurveControlY = gradientHeight - 250; // Height of the right side of the curve.
+    const gradientHeight = 500; 
+    const rightCurveControlY = gradientHeight - 250; 
 
-    let rightGradientStop = 0.8; // Initial gradient stop on the right side.
+    let rightGradientStop = 0.8; 
 
-    // Update the canvas dimensions.
     canvas.width = width;
-    canvas.height = height; // Canvas height including the curve.
+    canvas.height = height; 
 
-    // Create a linear gradient for the background.
-    const gradient = context.createLinearGradient(0, 0, 0, height); // Gradient direction.
+    const gradient = context.createLinearGradient(0, 0, 0, height); 
     gradient.addColorStop(0, "#a960ee");
     gradient.addColorStop(rightGradientStop, "#ffcb57");
 
-    // Apply the gradient to the canvas background.
     context.fillStyle = gradient;
     context.beginPath();
     context.moveTo(0, 0);
